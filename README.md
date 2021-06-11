@@ -10,8 +10,14 @@ The main function is entropy_weight.power.k.means
 ### entropy_weight.power.k.means
 #### Inputs:
 
-1. X : an $n \times p$ matrix whose rows denote the data points.
-2. s : The initial exponent fparameter for the power mean. Default is -1.
+1. X      : an $n \times p$ matrix whose rows denote the data points.
+2. s      : The initial exponent fparameter for the power mean. Default is -1.
 3. lambda : The entropy penalization parameter. Must be non-negative.
-4. tmax: Maximum number of iterations to be run. Default is 200.
-5. tol: Maximum relative error the algorithm should achive. Defailt is 1e-05.
+4. tmax   : Maximum number of iterations to be run. Default is 200.
+5. tol    : Maximum relative error the algorithm should achive. Defailt is 1e-05.
+
+#### Outputs
+
+1. theta  : A $k \times p$ matrix, whose rows represent the cluster centroids.
+2. label  : A n length vector representing the class labels.
+3. weight : A p length vector of the found feature weights.
