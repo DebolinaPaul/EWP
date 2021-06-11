@@ -9,6 +9,7 @@ The main function is entropy_weight.power.k.means
 
 ### entropy_weight.power.k.means
 #### Inputs:
+
 X : an $n \times p$ matrix whose rows denote the data points.
 s : The initial exponent fparameter for the power mean. Default is -1.
 lambda : The entropy penalization parameter. Must be non-negative.
