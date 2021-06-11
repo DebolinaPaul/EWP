@@ -13,8 +13,9 @@ The main function is entropy_weight.power.k.means
 1. X      : an $n \times p$ matrix whose rows denote the data points.
 2. s      : The initial exponent fparameter for the power mean. Default is -1.
 3. lambda : The entropy penalization parameter. Must be non-negative.
-4. tmax   : Maximum number of iterations to be run. Default is 200.
-5. tol    : Maximum relative error the algorithm should achive. Defailt is 1e-05.
+4. eta    : Learning rate for s. Default is 1.04.
+5. tmax   : Maximum number of iterations to be run. Default is 200.
+6. tol    : Maximum relative error the algorithm should achive. Defailt is 1e-05.
 
 #### Outputs
 
