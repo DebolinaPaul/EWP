@@ -21,3 +21,5 @@ The main function is entropy_weight.power.k.means
 1. theta  : A $k \times p$ matrix, whose rows represent the cluster centroids.
 2. label  : A n length vector representing the class labels.
 3. weight : A p length vector of the found feature weights.
+
+The codes for Power _k_-means (http://proceedings.mlr.press/v97/xu19a.html) is given is implemented in the power.k.means function. 
