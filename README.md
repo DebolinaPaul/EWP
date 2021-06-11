@@ -14,4 +14,4 @@ The main function is entropy_weight.power.k.means
 2. s : The initial exponent fparameter for the power mean. Default is -1.
 3. lambda : The entropy penalization parameter. Must be non-negative.
 4. tmax: Maximum number of iterations to be run. Default is 200.
-5. tol: Maximum relative error the algorithm should achive. Defailt is ```math 10^{-5} ```
+5. tol: Maximum relative error the algorithm should achive. Defailt is 1e-05.
